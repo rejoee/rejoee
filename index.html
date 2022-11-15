@@ -38,4 +38,23 @@
     </main>
     <script src="script.js"></script>
 </body>
+    <script>
+    x = 50
+    y = 350
+    xi = 1
+    yi = 0
+    setInterval(()=>{
+        x += xi
+        y += yi
+        if (x>950 || x<50) xi = -xi
+        if (y>650 || y<50) yi = -yi
+        yi += 0.01
+        document.getElementById("x").setAttribute("cx", x)
+        document.getElementById("x").setAttribute("cy", y)
+
+    },1)
+    function g(e) {
+        document.getElementById("f").setAttribute("cx", e.x)
+    }
+</script>
 </html>
