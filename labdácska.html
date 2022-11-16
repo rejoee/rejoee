@@ -61,8 +61,8 @@
     setInterval(()=>{
         x += xi
         y += yi
-        if (x>950 || x<50) xi = -xi
-        if (y>650 || y<50) yi = -yi
+        if (x>950 || x<200) xi = -xi
+        if (y>650 || y<420) yi = -yi
         yi += 0.01
         document.getElementById("x").setAttribute("cx", x)
         document.getElementById("x").setAttribute("cy", y)
