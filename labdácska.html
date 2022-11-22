@@ -17,15 +17,17 @@
         </header>
         <div id="fooldal">
             <h1>Regináról:</h1>
-            <p>szabad időmben szeretek:</p>
+            <p>zabad-idómben szereteq:</p>
             <ul>
                 <li>Bogit * nőnek hívni</li>
             </ul>
-            <p>elérhetőségeim (nem tudom ezt hogyan kell irni)</p>
+            <p>elérhetösségeim </p>
             <div id="eler">
-                <a class="eler" href="https://www.amongus.com" style="transform:rotate(30deg)">Among us username: jonasferi, LRegixPro</a>
+                <a class="eler" href="https://www.amongus.com" style="transform:rotate(30deg)">Among us username y MMC: jonasferi, LRegixPro</a>
                 <a class="eler" href="https://www.messenger.com">Messenger</a>
                 <a class="eler" href="https://www.github.com">Github</a>
+                <a class="eler" href="labdácska.html">labdácska</a>
+                
             </div>            
         </div>
         <div id="orarend">
@@ -36,24 +38,7 @@
     </main>
     <script src="script.js"></script>
 </body>
-</style></body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body onmousemove="g(event)">
-    <svg width="1000" height="700">
-        <circle id="x" cx="50" cy="50" r="20" stroke="orange" 
-        stroke-width="2" fill="turqouise" />
-        <circle id="f" cx="50" cy="50" r="100" stroke="orange" 
-        stroke-width="2" fill="turqouise" />
-    </svg>
-</body>
-<script>
+    <script>
     x = 50
     y = 350
     xi = 1
@@ -71,5 +56,43 @@
     function g(e) {
         document.getElementById("f").setAttribute("cx", e.x)
     }
-</script>
-</html>
+       <script>
+         div {
+  background-color: red;
+  border-radius: 100%;
+  height: 50px;
+  left: calc(50% - 50px);
+  position: absolute;
+  right: calc(50% - 50px);
+  width: 50px;
+  animation: bounce 1s ease-in-out infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+span {
+  border-radius: 100%;
+  bottom: 32.5%;
+  left: calc(50% - 50px);
+  right: calc(50% - 50px);
+  position: absolute;
+  content: '';
+  background-color: black;
+  filter: blur(3px);
+  width: 50px;
+  height: 5px;
+  animation: shadow 1s ease-in-out infinite;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+  z-index: -1;
+}
+
+@keyframes bounce {
+  from {
+    top: 25%;
+    transform: scaleX(79.5%) scaleY(65%);
+  }
+  to {
+    top: 55%;
+  }
+}
