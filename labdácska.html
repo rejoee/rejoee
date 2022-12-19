@@ -9,19 +9,28 @@
 </head>
 <body onload="started()">
     <main>
-        <header id="header">
+        <div id="header">
             <h1 id="h1"></h1>
-            
+            <hr>
             <button class="basic" onclick="fooldal()">Főoldal</button>
             <button class="basic" onclick="orarend()">Órarend</button>
-        </header>
-        <div id="fooldal">
+        </div>
+        <div class="z" id="fooldal">
             <h1>Regináról:</h1>
             <p>zabad-idómben szereteq:</p>
             <ul>
                 <li>Bogit * nőnek hívni</li>
             </ul>
-            <p>elérhetösségeim </p>
+           
+            <div id="eler">
+                
+                
+            </div>            
+        </div>
+        <ul>
+         <p>elérhetösségeim </p> 
+        </ul>
+        <div id="fooldal">
             <div id="eler">
                 <a class="eler" href="https://www.amongus.com" style="transform:rotate(30deg)">Among us username y MMC: jonasferi, LRegixPro</a>
                 <a class="eler" href="https://www.messenger.com">Messenger</a>
@@ -34,20 +43,22 @@
             <p>amogus</p>
             <img src="./orarend.jpg">
         </div>
-
+        <svg width="98%" height="78%" >
+            <circle onclick="f(event)" id="x" cx="50" cy="50" r="40" stroke="blue" stroke-width="4" fill="purple" />
+        </svg>
     </main>
     <script src="script.js"></script>
 </body>
     <script>
     x = 50
-    y = 350
+    y = 70
     xi = 1
     yi = 0
     setInterval(()=>{
         x += xi
         y += yi
-        if (x>950 || x<50) xi = -xi
-        if (y>650 || y<50) yi = -yi
+        if (x>1140 || x<50) xi = -xi
+        if (y>980 || y<50) yi = -yi
         yi += 0.01
         document.getElementById("x").setAttribute("cx", x)
         document.getElementById("x").setAttribute("cy", y)
@@ -56,21 +67,37 @@
     function g(e) {
         document.getElementById("f").setAttribute("cx", e.x)
     }
-       <script>
-         div {
+    function f(e) {
+        document.getElementById("x").setAttribute("fill", "red")
+    }
+</script>
+       <style>
+        body {
+            margin: 0px;
+            padding: 20px;
+        }
+        svg {
+            z-index: 2;
+            position: fixed;
+            left: 400px;
+            top: 0px;
+            border: solid 7px rgb(141, 53, 153);
+            border-radius: 10px;
+            box-shadow: 1px 1px 4px inset black;
+        }
+         div.z {
   background-color: red;
   border-radius: 100%;
-  height: 50px;
-  left: calc(50% - 50px);
+  height: 210px;
+  left: 210px;
   position: absolute;
-  right: calc(50% - 50px);
-  width: 50px;
+  width: 180px;
   animation: bounce 1s ease-in-out infinite;
   animation-fill-mode: both;
   animation-direction: alternate;
 }
 
-span {
+span.z {
   border-radius: 100%;
   bottom: 32.5%;
   left: calc(50% - 50px);

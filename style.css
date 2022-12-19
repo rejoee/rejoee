@@ -9,7 +9,7 @@ body {
 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-main {
+main.z {
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
