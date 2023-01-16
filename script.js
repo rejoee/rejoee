@@ -9,10 +9,8 @@ async function started() {
 function orarend() {
     get("fooldal").style.display = "none";
     get("orarend").style.display = "unset";
-    get("muzsikák").style.display = "unset";
 }
 function fooldal() {
     get("orarend").style.display = "none";
     get("fooldal").style.display = "unset";
-    get("muzsikák").style.display = "unset";
 }
