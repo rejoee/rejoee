@@ -1,5 +1,5 @@
 
-div {
+a {
   width: 170px;
   height: 170px;
   background-color: red;
@@ -8,13 +8,14 @@ div {
   animation: mymove 5s infinite;
 }
 
-#div1 {animation-timing-function: linear;}
-#div2 {animation-timing-function: ease;}
-#div3 {animation-timing-function: ease-in;}
-#div4 {animation-timing-function: ease-out;}
-#div5 {animation-timing-function: ease-in-out;}
+.a1 {animation-timing-function: linear;}
+.a2 {animation-timing-function: ease;}
+.a3 {animation-timing-function: ease-in;}
+.a4 {animation-timing-function: ease-out;}
+.a5 {animation-timing-function: ease-in-out;}
 
 @keyframes mymove {
-  from {left: 0px;}
-  to {left: 300px;}
+  0% {left: 0px;}
+  50% {left: 12000px;}
+  100% {left: 0px;}
 }
