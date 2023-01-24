@@ -1,6 +1,6 @@
 a {
   position: relative;
-  animation: mymove 5s infinite;
+  animation: mymove 10s infinite;
 }
 
 .a1 {animation-timing-function: linear;}
