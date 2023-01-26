@@ -71,7 +71,7 @@ header {
 #eler {
     position:absolute;
     top: 75%;
-    transform: rotate(90deg) translate(0, -50%);
+    transform: rotate(180deg) translate(0, -50%);
 }
 .eler {
     border: none;
