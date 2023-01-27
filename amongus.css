@@ -85,9 +85,3 @@ a {
     }
   }
 
-
-@keyframes mymove {
-  0% {left: 0px;}
-  50% {left: 1260px;}
-  100% {left: 0px;}
-}
