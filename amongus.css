@@ -19,54 +19,6 @@ a {
     }
   }
 
-  #motion-demo .a2 {
-    offset-path: path("M20,20 C20,100 200,0 200,100");
-    animation: move 3000ms infinite alternate ease-in-out;
-    width: 40px;
-    height: 40px;
-  }
-  
-  @keyframes move {
-    0% {
-      offset-distance: 0%;
-    }
-    100% {
-      offset-distance: 100%;
-    }
-  }
-
-  #motion-demo .a3 {
-    offset-path: path("M65,26 C97,100 300,0 210,100");
-    animation: move 3000ms infinite alternate ease-in-out;
-    width: 40px;
-    height: 40px;
-  }
-  
-  @keyframes move {
-    0% {
-      offset-distance: 0%;
-    }
-    100% {
-      offset-distance: 100%;
-    }
-  }
-
-  #motion-demo .a4 {
-    offset-path: path("M10,20 C30,160 720,0 250,100");
-    animation: move 3000ms infinite alternate ease-in-out;
-    width: 40px;
-    height: 40px;
-  }
-  
-  @keyframes move {
-    0% {
-      offset-distance: 0%;
-    }
-    100% {
-      offset-distance: 100%;
-    }
-  }
-
   #motion-demo .a5 {
     offset-path: path("M52,20 C49,100 940,0 530,100");
     animation: move 3000ms infinite alternate ease-in-out;
@@ -83,21 +35,6 @@ a {
     }
   }
 
-  #motion-demo .a6 {
-    offset-path: path("M85,20 C76,100 370,0 680,100");
-    animation: move 3000ms infinite alternate ease-in-out;
-    width: 40px;
-    height: 40px;
-  }
-  
-  @keyframes move {
-    0% {
-      offset-distance: 0%;
-    }
-    100% {
-      offset-distance: 100%;
-    }
-  }
 
   #motion-demo .a7 {
     offset-path: path("M90,20 C50,100 510,0 860,100");
@@ -115,21 +52,6 @@ a {
     }
   }
 
-  #motion-demo .a8 {
-    offset-path: path("M16,20 C75,100 480,0 990,100");
-    animation: move 3000ms infinite alternate ease-in-out;
-    width: 40px;
-    height: 40px;
-  }
-  
-  @keyframes move {
-    0% {
-      offset-distance: 0%;
-    }
-    100% {
-      offset-distance: 100%;
-    }
-  }
 
   #motion-demo .a9 {
     offset-path: path("M74,20 C44,100 860,0 340,100");
