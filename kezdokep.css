@@ -16,7 +16,7 @@ body,html{
     background-size: cover;
     text-align: center;
     justify-content: center;
-    animation: change 10s infinite ease-in-out;
+    animation: change 25s infinite ease-in-out;
 }
 
 @keyframes change{
