@@ -6,11 +6,7 @@ async function started() {
         await sleep(100);
     }
 }
-function orarend() {
-    get("fooldal").style.display = "none";
-    get("orarend").style.display = "unset";
-}
+
 function fooldal() {
-    get("orarend").style.display = "none";
     get("fooldal").style.display = "unset";
 }
