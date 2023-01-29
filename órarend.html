@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+<html><head>
+    <button onclick="history.back()">eressz</button>
+    <title>Órarend</title>
+</head>
+<body>
+    <table id="ora" align="center">
+        <tbody><tr>
+            <th>Hétfő</th>
+            <th>Kedd</th>
+            <th>Szerda</th>
+            <th>Csütörtök</th>
+            <th>Péntek</th>
+        </tr>
+            <tr><td>nyelvtan</td>
+            <td></td>
+            <td>irodalom</td>
+            <td>történelem</td>
+            <td>földrajz</td>
+        </tr>
+        <tr>
+            <td>spanyol</td>
+            <td>matematika</td>
+            <td>fizika</td>
+            <td>francia</td>
+            <td>irodalom</td>
+        </tr>
+        <tr>
+            <td>kémia</td>
+            <td>földrajz</td>
+            <td>francia</td>
+            <td>matematika</td>
+            <td>francia</td>
+        </tr>
+        <tr>
+            <td>testnevelés</td>
+            <td>testnevelés</td>
+            <td>testnevelés</td>
+            <td>spanyol</td>
+            <td>matematika</td>
+        </tr>
+        <tr>
+            <td>történelem</td>
+            <td>infó</td>
+            <td>biológia</td>
+            <td>infó</td>
+            <td>fizika</td>
+        </tr>
+        <tr>
+            <td>lektori</td>
+            <td>biológia</td>
+            <td>spanyol</td>
+            <td>nyelvtan</td>
+            <td>rajz</td>
+        </tr>
+        <tr>
+            <td>Ének</td>
+            <td>francia</td>
+            <td>lektori</td>
+            <td>biológia</td>
+            <td>osztályfőnöki</td>
+        </tr>
+        </tbody></table>
+       
+        <style>
+            
+            body {
+                background-image: url("./sagvari.jpg");
+                background-size: cover;
+            }
+
+
+           th, td {
+                font-size: 40px;
+                height: 40px;
+                background-color: rgb(29, 113, 103); 
+                border-radius: 15px;
+                text-align: center;
+                padding: 10px;
+            }
+            p { font-size: 31px;
+
+            }
+        
+            table {
+                width: 500px;
+                border-style: solid;
+                border-color: rgb(255, 255, 255);
+                border-radius: 5px;
+                margin: auto;
+                align-self: center;
+            }
+            
+        </style> 
+</body></html>
