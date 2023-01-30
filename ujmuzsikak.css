@@ -1,16 +1,18 @@
 .b1 {
   position: relative;
-}
+
 
 .bottomleft {
-  position: absolute;
-  bottom: 61px;
-  left: 610px;
-  font-size: 18px;
-}
+    position: absolute;
+    bottom: 230px;
+    left: 610px;
+    font-size: 188px;
+ }
 
-gif { 
+img { 
   width: 50%;
   height: auto;
   opacity: 0.3;
+ }
+  
 }
