@@ -1,18 +1,15 @@
-.b1 {
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
   position: relative;
+}
 
-
-.bottomleft {
-    position: absolute;
-    bottom: 230px;
-    left: 610px;
-    font-size: 188px;
- }
-
-img { 
-  width: 50%;
-  height: auto;
-  opacity: 0.3;
- }
+.wrapper img {
+  width: 65px;
+  height: 65;
+  position: absolute;
   
+  top: 5%;
+  left: 75%;
+  transform: translate(-210%, -400%);
 }
