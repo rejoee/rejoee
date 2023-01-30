@@ -5,12 +5,12 @@
 .bottomleft {
   position: absolute;
   bottom: 61px;
-  left: 210px;
+  left: 610px;
   font-size: 18px;
 }
 
 gif { 
-  width: 100%;
+  width: 50%;
   height: auto;
   opacity: 0.3;
 }
