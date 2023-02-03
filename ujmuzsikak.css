@@ -7,10 +7,10 @@
 
 .wrapper img {
   width: 65px;
-  height: 65;
+  height: 65px;
   position: absolute;
   
   top: 5%;
   left: 75%;
-  transform: translate(-210%, -400%);
+  transform: translate(610%, -400%);
 }
