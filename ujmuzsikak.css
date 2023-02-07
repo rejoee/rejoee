@@ -1,9 +1,10 @@
-.wrapper img {
-  width: 65px;
-  height: 65px;
+.fixed img {
+  width: 265px;
+  height: 265px;
   position: absolute;
   
-  top: 5%;
-  left: 75%;
+  top: 55%;
+  left: 5%;
   object-position: bottom 10px right 20px
 }
+
