@@ -1,9 +1,9 @@
 .fixed3 img {
-  width: 200px;
-  height: 200px;
+  width: 100px;
+  height: 100px;
   position: absolute;
   
   top: 64%;
   left: 93%;
-  object-position: bottom 17px right 20px
+  object-position: bottom 17px right 80px
 }
